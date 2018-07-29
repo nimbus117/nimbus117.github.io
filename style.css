@@ -132,6 +132,7 @@ header p {
 footer {
 	background: var(--primary);
 	text-align: center;
+	box-shadow: var(--shadow);
 }
 
 footer .fa {
@@ -149,7 +150,6 @@ footer .fa {
 footer .fa:hover {
 	opacity: 0.5;
 	filter: alpha(opacity=50);
-	box-shadow: var(--shadow);
 }
 
 /* media queries */
